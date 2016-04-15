@@ -22,4 +22,13 @@
 @property (nonatomic) UIColor  *color;
 @property (nonatomic) NSString *textDescription;
 
+//hehejingjing
+@property (nonatomic)UIColor *titlePathColor;
+@property (nonatomic)CGFloat titlePathWidth;
+@property (nonatomic)UIColor *titleColor;
+@property (nonatomic)UIFont *titleFont;
++ (instancetype)dataItemWithValue:(CGFloat)value
+                            color:(UIColor*)color
+                      description:(NSString *)description titlePathColor:(UIColor *)titlePathColor titlePathLineWidth:(CGFloat)lineWidth titleColor:(UIColor *)titleColor titleFont:(UIFont *)titleFont;
+
 @end

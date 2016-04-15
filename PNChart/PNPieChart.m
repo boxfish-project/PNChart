@@ -26,10 +26,7 @@
 
 - (UILabel *)descriptionLabelForItemAtIndex:(NSUInteger)index;
 - (PNPieChartDataItem *)dataItemForIndex:(NSUInteger)index;
-- (CGFloat)startPercentageForItemAtIndex:(NSUInteger)index;
-- (CGFloat)endPercentageForItemAtIndex:(NSUInteger)index;
 - (CGFloat)ratioForItemAtIndex:(NSUInteger)index;
-
 - (CAShapeLayer *)newCircleLayerWithRadius:(CGFloat)radius
                                borderWidth:(CGFloat)borderWidth
                                  fillColor:(UIColor *)fillColor

@@ -65,4 +65,7 @@
 
 - (void)recompute;
 
+- (CGFloat)startPercentageForItemAtIndex:(NSUInteger)index;
+- (CGFloat)endPercentageForItemAtIndex:(NSUInteger)index;
+
 @end
